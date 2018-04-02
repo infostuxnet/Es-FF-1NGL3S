@@ -124,24 +124,23 @@ header p {
  
 }
 
+/* booton */
 
-a {
-  background: #3F51B5;
-  color: #FFFFFF;
-  padding: 8px 20px;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  display: inline-block;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+button {
+	color:#000;
+	background:#eede2f;
+	padding:3px 6px;
+	cursor: pointer;
+	font-size:14px;
+	font-family:'PT Sans', sans-serif;
+	text-transform:uppercase;
 }
-a:hover, a:active, a:focus {
-  background: #32408f;
-  color: #FFFFFF;
-  text-decoration: none;
-}
+
+.button:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+} 
 
 .timeline-card {
   padding: 0 !important;
