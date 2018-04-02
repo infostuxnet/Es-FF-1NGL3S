@@ -132,7 +132,7 @@ button {
 	padding:3px 6px;
 	cursor: pointer;
 	font-size:14px;
-	font-family:'PT Sans', sans-serif;
+	/*font-family:'PT Sans', sans-serif; */
 	text-transform:uppercase;
 }
 
@@ -148,9 +148,10 @@ button {
 .timeline-card p {
   padding: 0 20px;
 }
+/*
 .timeline-card a {
   margin-left: 20px;
-}
+} */
 
 .timeline-item:nth-child(1) .timeline-img-header {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("http://www.tourinperu.com/wp-content/uploads/2018/04/benjamin-gerencia-EN.jpg") center center no-repeat;
